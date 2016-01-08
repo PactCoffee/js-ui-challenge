@@ -20,7 +20,7 @@ But wait! There's more...
 
 1. The stages fill the viewport, and are laid out in a vertical-scrolling list
 
-1. Data from each stage is saved incrementally. If a user leaves the funnel and comes back, their data should still be there
+1. Data from each stage should be saved incrementally. If a user leaves the funnel and comes back, their data should still be there
 
 1. We may want to do multivariate testing of the funnel in future. As such, the architecture of the funnel needs to be flexible enough to allow for the following:
 
@@ -30,6 +30,23 @@ But wait! There's more...
   - Fields and controls being added or removed to stages
 
 1. There's no need to do any async requests (unless you _really_ want to), just an indication of where you might do them is enough
+
+1. At the end of the funnel, the data sent to the (pretend) API should follow this structure:
+```js
+{
+  first_name: <string>,
+  email: <string>,
+  brew_type: <enum: 'cafetiere'|'aeropress'|'drip'|'stovetop'|'espresso'>,
+  address: {
+    full_name: <string>,
+    company: <string>,
+    address_line_1: <string>,
+    address_line_2: <string>,
+    city: <string>,
+    postcode: <string>,
+  }
+}
+```
 
 Static designs
 --------------
