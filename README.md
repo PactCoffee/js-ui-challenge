@@ -50,6 +50,8 @@ Notes
 
 Feel free to make use of our style guide & component library, [loggins](https://github.com/PactCoffee/loggins).
 
-The purpose of this test is for us to get a look into how you approach the problem and what your process is to solve it. Be prepared to talk through your work.
+The purpose of this test is for us to get a look into how you approach the problem and what your process is to solve it. Be prepared to talk through your work. We also expect your commit history to give us an idea of how you approached the problem.
 
-This readme is sparse on information on purpose.
+(This readme is sparse on information on purpose 💃)
+
+**NB** This is not "spec work"; it's simply a test for us to understand your skills and process.
