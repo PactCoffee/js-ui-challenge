@@ -1,0 +1,54 @@
+.greeting {
+	color: #466864;
+	font-size: 15px;
+	margin-top: 6%;
+	text-align: center;
+}
+
+.container {
+	margin-left: 23%;
+	margin-top: 4%;
+	width: 54%;
+}
+
+.title {
+	color: white;
+    font-weight: 300;
+	text-align: center;
+}
+
+.icon {
+	color: #9dded6;
+	cursor: pointer;
+	float: left;
+	font-weight: 300;
+	margin: 0 30px 0 30px;
+	text-align: center;
+}
+
+.coffee {
+	font-size: 13px;
+}
+
+.type {
+	font-size: 10px;
+}
+
+.button {
+	clear: both;
+	height: 60px;
+    line-height: 60px;
+    top: 50px;
+    position: relative;
+	text-align: center;
+}
+
+.btn_element {
+	background-color: #00af9d;
+	border: 1px solid #abe1db;
+	border-radius: 4px;
+	color: #abe1db;
+    cursor: pointer;
+	font-size: 16px;
+	padding: 16px;
+}
