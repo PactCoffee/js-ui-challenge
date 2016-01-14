@@ -1,0 +1,28 @@
+.icon {
+    border: 1px solid white;
+    border-radius: 50%;
+    display: block;
+    height: 70px;
+    width: 70px;
+}
+
+.unclicked {
+    background-color: transparent;
+}
+
+.unclicked svg path {
+    fill: white;
+}
+
+.clicked {
+    background-color: white;
+}
+
+.clicked svg path {
+    fill: #32bcad;
+}
+
+svg {
+    height: inherit;
+    width: inherit;
+}
