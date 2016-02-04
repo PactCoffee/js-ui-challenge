@@ -6,7 +6,7 @@ Pact's front end challenge
 The general idea
 ----------------
 
-We have a sign up flow affectionately known as "The Funnel". It's primary use is to sign up customers to our service. They enter their information, it gets sent to the server. **The challenge is to build a very simple version of [our current funnel](http://pactcoffee.com/funnel/intro)**. Sounds easy enough, right?
+We have a sign up flow affectionately known as "The Funnel". It's primary use is to sign up customers to our service. They enter their information, it gets sent to the server. **The challenge is to build a very simple version of [our funnel](http://pactcoffee.com/sign-up)**. Sounds easy enough, right?
 
 
 But wait! There's more...
