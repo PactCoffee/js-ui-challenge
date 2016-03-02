@@ -23,11 +23,11 @@
               <tbody>
                 <tr>
                   <td>First Name</td>
-                  <td><input class="u-full-width" id="firstname" type="text"></td>
+                  <td><input class="u-full-width" id="first_name" type="text"></td>
                 </tr>
                 <tr>
                   <td>Last Name</td>
-                  <td><input class="u-full-width" id="lastname" type="text"></td>
+                  <td><input class="u-full-width" id="last_name" type="text"></td>
                 </tr>
                 <tr>
                   <td>Email address</td>
@@ -88,22 +88,52 @@
     </div>
   </div>
 
-  <div class="template" data-id="address">
-    <div class="frame">
-      <div class="row heading">Add your address</div>
-      <div class="row main">
-        <div class="twelve columns"></div>
-      </div>
-      <div class="row">
-        <div class="three columns">&nbsp;</div>
-        <div class="six columns">
-          <button class="button-primary previous">Back</button>
-          <button class="button-primary next">Continue</button>
-        <div class="three columns">&nbsp;</div>
+    <div class="template" data-id="details">
+      <div class="frame">
+        <div class="row heading">Add your address</div>
+        <div class="row">
+          <div class="three columns">&nbsp;</div>
+          <div class="six columns">
+            <table class="frame">
+              <tbody>
+                <tr>
+                  <td>Full name</td>
+                  <td><input class="u-full-width" id="full_name" type="text"></td>
+                </tr>
+                <tr>
+                  <td>Company</td>
+                  <td><input class="u-full-width" id="company" type="text"></td>
+                </tr>
+                <tr>
+                  <td>Address Line 1</td>
+                  <td><input class="u-full-width" id="address_line_1" type="text"></td>
+                </tr>
+                <tr>
+                  <td>Address Line 2</td>
+                  <td><input class="u-full-width" id="address_line_2" type="text"></td>
+                </tr>
+                <tr>
+                  <td>City</td>
+                  <td><input class="u-full-width" id="city" type="text"></td>
+                </tr>
+                <tr>
+                  <td>Postcode</td>
+                  <td><input class="u-full-width" id="postcode" type="text"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="three columns">&nbsp;</div>
+        </div>
+        <div class="row">
+          <div class="three columns">&nbsp;</div>
+          <div class="six columns">
+            <button class="button-primary next">Get started</button>
+          <div class="three columns">&nbsp;</div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
   <script type="text/javascript" src="lib/jquery-2.2.1.min.js"></script>
   <script type="text/javascript" src="src/js/utils.js"></script>

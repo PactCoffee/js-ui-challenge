@@ -21,6 +21,11 @@ div.icon {
   margin: 20px;
 }
 
+div.icon:hover, div.icon.selected {
+  cursor: pointer;
+  background-color: white;
+}
+
 .main {
   margin-top: 30px;
   margin-bottom: 30px;
