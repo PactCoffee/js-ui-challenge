@@ -10,10 +10,7 @@ addFrame(++frame);
 function addFrame(no) {
   body.insertAdjacentHTML('beforeend', funnelRoute[no]);
   const frames = document.querySelectorAll('.frame');
-  frames[no].scrollIntoView({
-    behavior: 'smooth',
-    block:    'start'
-  });
+  frames[no].scrollIntoView();
 }
 
 function scrollToNext(e) {

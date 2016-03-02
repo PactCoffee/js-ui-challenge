@@ -1,0 +1,112 @@
+<!doctype html>
+  <html>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+      <link rel="stylesheet" type="text/css" href="src/css/normalize.css">
+      <link rel="stylesheet" type="text/css" href="src/css/skeleton.css">
+      <link rel="stylesheet" type="text/css" href="src/css/main.css">
+  </head>
+  <body>
+    <div id="funnelwrapper">
+      
+    </div>
+
+    <!-- templates -->
+
+    <div class="template" data-id="details">
+      <div class="frame">
+        <div class="row heading">Let's get you some coffee</div>
+        <div class="row">
+          <div class="three columns">&nbsp;</div>
+          <div class="six columns">
+            <table class="frame">
+              <tbody>
+                <tr>
+                  <td>First Name</td>
+                  <td><input class="u-full-width" id="firstname" type="text"></td>
+                </tr>
+                <tr>
+                  <td>Last Name</td>
+                  <td><input class="u-full-width" id="lastname" type="text"></td>
+                </tr>
+                <tr>
+                  <td>Email address</td>
+                  <td><input class="u-full-width" placeholder="test@mailbox.com" id="email" type="email"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="three columns">&nbsp;</div>
+        </div>
+        <div class="row">
+          <div class="three columns">&nbsp;</div>
+          <div class="six columns">
+            <button class="button-primary next">Get started</button>
+          <div class="three columns">&nbsp;</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="template" data-id="brew">
+      <div class="frame">
+        <div class="row heading">First, how do you brew your coffee?</div>
+        <div class="row main">
+          <div class="one columns">&nbsp;</div>
+          <div class="ten columns imglabel">
+            <div class="icon inline imglabel" data-id="cafetiere">
+              <img class="icon" src="src/img/cafetiere.svg"><br/>
+              <span>Cafetiere</span>
+            </div>
+            <div class="icon inline imglabel" data-id="aeropress">
+              <img class="icon" src="src/img/aeropress.svg"><br/>
+              <span>Aeropress</span>
+            </div>
+            <div class="icon inline imglabel" data-id="drip">
+              <img class="icon" src="src/img/dripper.svg"><br/>
+              <span>Drip</span>
+            </div>
+            <div class="icon inline imglabel" data-id="stovetop">
+              <img class="icon" src="src/img/stovetop.svg"><br/>
+              <span>Stovetop</span>
+            </div>
+            <div class="icon inline imglabel" data-id="espresso">
+              <img class="icon" src="src/img/espresso.svg"><br/>
+              <span>Espresso</span>
+            </div>
+          </div>
+          <div class="one columns">&nbsp;</div>
+        </div>
+        <div class="row">
+          <div class="three columns">&nbsp;</div>
+          <div class="six columns">
+            <button class="button-primary previous">Back</button>
+            <button class="button-primary next">Continue</button>
+          <div class="three columns">&nbsp;</div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="template" data-id="address">
+    <div class="frame">
+      <div class="row heading">Add your address</div>
+      <div class="row main">
+        <div class="twelve columns"></div>
+      </div>
+      <div class="row">
+        <div class="three columns">&nbsp;</div>
+        <div class="six columns">
+          <button class="button-primary previous">Back</button>
+          <button class="button-primary next">Continue</button>
+        <div class="three columns">&nbsp;</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="lib/jquery-2.2.1.min.js"></script>
+  <script type="text/javascript" src="src/js/utils.js"></script>
+  <script type="text/javascript" src="src/js/funnel.js"></script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+body {
+  background-color: #29ae9b;
+  font-family: 'georgia'
+}
+
+table.frame {
+  background-color: white;
+  border: 1px solid black;
+  width: 100%;
+}
+
+table.frame td {
+  padding: 20px;
+}
+
+.template {
+  display: none;
+}
+
+div.icon {
+  margin: 20px;
+}
+
+.main {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.imglabel {
+  text-align: center;
+}
+
+img.icon {
+  width: 90px;
+}
+
+.heading {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+div.frame {
+  margin: 30px;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  div.frame {
+    height: 200px;
+    padding: 20px;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  div.frame {
+    height: 500px;
+    padding: 20px;
+  }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
